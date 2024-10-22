@@ -1,0 +1,6 @@
+@_2024_10_22_asp_HostAddress = http://localhost:5272
+
+GET {{_2024_10_22_asp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

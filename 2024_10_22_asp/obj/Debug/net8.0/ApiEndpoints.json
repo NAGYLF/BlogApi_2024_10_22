@@ -1,0 +1,121 @@
+[
+  {
+    "ContainingType": "_2024_10_22_asp.Controllers.BlogUserController",
+    "Method": "Get",
+    "RelativePath": "BlogUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[_2024_10_22_asp.Models.BlogUser, 2024_10_22_asp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2024_10_22_asp.Controllers.BlogUserController",
+    "Method": "Post",
+    "RelativePath": "BlogUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createBlogUserDto",
+        "Type": "_2024_10_22_asp.Models.Dto\u002BCreateBlogUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2024_10_22_asp.Models.BlogUser",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2024_10_22_asp.Controllers.BlogUserController",
+    "Method": "Delete",
+    "RelativePath": "BlogUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "_2024_10_22_asp.Controllers.BlogUserController",
+    "Method": "GetById",
+    "RelativePath": "BlogUser/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2024_10_22_asp.Models.BlogUser",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "_2024_10_22_asp.Controllers.BlogUserController",
+    "Method": "Put",
+    "RelativePath": "BlogUser/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateBlogUserDto",
+        "Type": "_2024_10_22_asp.Models.Dto\u002BUpdateBlogUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "_2024_10_22_asp.Models.BlogUser",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
